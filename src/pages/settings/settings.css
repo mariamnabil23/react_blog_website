@@ -1,0 +1,78 @@
+.settings{
+    display: flex;
+}
+.set-contanier{
+    flex: 9;
+}
+.set-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.update{
+    margin: 20px 0px 20px 20px;
+    font-size: 25px;
+    color: chocolate;
+}
+.delete{
+    margin: 20px 20px 20px 0px;
+    font-size: 15px;
+    color: red;
+    cursor: pointer;
+}
+.set-form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+.set-pic{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.set-pic > img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.picIcon{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: tan;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.set-form > label{
+    font-size: 22px;
+    margin-top: 10px;
+    text-transform: capitalize;
+}
+.set-form > input{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    color: gray;
+    height: 30px;
+    font-size: 16px;
+    margin: 5px 0 10px;
+}
+.set-form>input:focus{
+    outline: none;
+}
+.update-btn{
+    width: 150px;
+    align-self: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: tan;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
